@@ -1,1 +1,7 @@
 .venv/
+ecommerce.db
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+.ipynb_checkpoints/
