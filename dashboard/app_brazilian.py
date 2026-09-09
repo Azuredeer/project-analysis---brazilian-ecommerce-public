@@ -315,8 +315,8 @@ with tab1:
     
     fig_monthly.update_layout(
         xaxis=dict(title="Bulan Transaksi"),
-        yaxis=dict(title="Jumlah Pesanan (Orders)", titlefont=dict(color="#1E40AF"), tickfont=dict(color="#1E40AF")),
-        yaxis2=dict(title="Gross Revenue (BRL R$)", titlefont=dict(color="#10B981"), tickfont=dict(color="#10B981"), overlaying="y", side="right"),
+        yaxis=dict(title=dict(text="Jumlah Pesanan (Orders)", font=dict(color="#1E40AF")), tickfont=dict(color="#1E40AF")),
+        yaxis2=dict(title=dict(text="Gross Revenue (BRL R$)", font=dict(color="#10B981")), tickfont=dict(color="#10B981"), overlaying="y", side="right"),
         hovermode="x unified",
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         margin=dict(l=40, r=40, t=40, b=40),
